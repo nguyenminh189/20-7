@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="exam">
+        <div class="header">
+            <div class="logo"><img id="logo" src="./logo.jpg" alt="logo">
+            <h3>One love, One Future</h3></div>
+            
+            <img id="banner" src="./banner.jpg" alt="banner">
+        </div>
+        <div class="middle">
+            <h1>Đăng ký thành viên hội cổ động viên MU</h1>
+
+            <form class="table" action="">
+                <div class="Input">
+                    <form class="form" name="myform" method="post" action="welcome1.php" onsubmit="return validateform()">Name:<input type="text" name="name"><br>
+                    </form>
+
+                </div>
+
+                <div class="Input">
+                    <form class="form" name="myform" method="post" action="#" onsubmit="return validatEemail();">Email: <input type="text" name="email"><br>
+                    </form>
+                </div>
+
+                <div class="Input">
+                    <form class="form" name="myform" method="post" action="welcome1.php" onsubmit="return validateform()">Phone: <input type="text" name="phone"><br>
+
+                </div>
+
+                <div class="input">
+                    <label for="Radio">Giới tính</label>
+                    <select class="Radio" name="Radio" id="Radio">
+                        <option value="Male" data-value="Male">Male</option>
+                        <option value="Female" data-value="Female">Female</option>
+                        <option value="Trans" data-value="Trans">Trans</option>
+                    </select>
+
+                </div>
+
+                <div class="input-Hobby">
+                    <label for="Hobby">Sở thích</label>
+                    <input class="option" type="checkbox" value="Thể thao">Thể thao
+                    <input class="option" type="checkbox" value="Phim ảnh">Phim ảnh
+                    <input class="option" type="checkbox" value="Âm nhạc">Âm nhạc
+                    <input class="option" type="checkbox" value="Đọc sách">Đọc sách
+                    <input class="option" type="checkbox" value="Khác">Khác
+                </div>
+
+                <div class="input">
+                    <label for="Introduce">Giới thiệu bản thân</label>
+                    <input class="Introduce" type="text">
+                </div>
+
+                <input class="Submit" type="submit" value="Submit">
+            </form>
+        </div>
+        <div class="footer">
+            <h2>Thắc mắc xin liên hệ: Nguyễn Đức Minh</h2>
+            <p>Hotline: 0376799945</p>
+            <p>Email: nguyenducminh4002@gmail.com</p>
+            <p>Địa chỉ: Số 7 Thiền Quang, Nguyễn Du, Hai Bà Trưng, Hà Nội</p>
+        </div>
+    </div>
+</body>
+<script src="./index.js">
+   
+</script>
+
+</html>

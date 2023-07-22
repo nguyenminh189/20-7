@@ -1,0 +1,59 @@
+.Submit {
+    background-color: red;
+}
+
+body {
+    background-color: white;
+}
+
+.exam {
+    padding: 80px 50px;
+}
+
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#logo {
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+}
+
+h3 {
+    font-size: 40px;
+    background-color: red;
+    color: white;
+    height: 80px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#banner {
+    width: 100%;
+}
+
+.table {
+    display: flex;
+    margin: 20px 0px;
+    width: 100%;
+    justify-content: center;
+}
+
+.Input {
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    width: 100px;
+    justify-content: center;
+}
+
+.Introduce {
+    height: 50px;
+    width: 100%;
+    margin-bottom: 20px;
+}
